@@ -1,4 +1,4 @@
-package bt
+package bgl
 
 const (
 	// MaxTxInSequenceNum is the maximum sequence number the sequence field

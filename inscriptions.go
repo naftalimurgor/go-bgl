@@ -1,4 +1,4 @@
-package bt
+package bgl
 
 import (
 	"github.com/libsv/go-bt/v2/bscript"

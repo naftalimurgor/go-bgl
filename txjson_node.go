@@ -1,4 +1,4 @@
-package bt
+package bgl
 
 import (
 	"encoding/json"
