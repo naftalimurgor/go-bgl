@@ -1,19 +1,7 @@
-# go-bt
+# go-bgl
+<img src="Icon.png" style="height: 60px;"/>
 
-> The go-to Bitcoin Transaction (BT) GoLang library  
-
-[![Release](https://img.shields.io/github/release-pre/libsv/go-bt.svg?logo=github&style=flat&v=1)](https://github.com/libsv/go-bt/releases)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/libsv/go-bt/run-tests.yml?logo=github&v=3)](https://github.com/libsv/go-bt/actions)
-[![Report](https://goreportcard.com/badge/github.com/libsv/go-bt?style=flat&v=1)](https://goreportcard.com/report/github.com/libsv/go-bt)
-[![codecov](https://codecov.io/gh/libsv/go-bt/branch/master/graph/badge.svg?v=1)](https://codecov.io/gh/libsv/go-bt)
-[![Go](https://img.shields.io/github/go-mod/go-version/libsv/go-bt?v=1)](https://golang.org/)
-[![Sponsor](https://img.shields.io/badge/sponsor-libsv-181717.svg?logo=github&style=flat&v=3)](https://github.com/sponsors/libsv)
-[![Donate](https://img.shields.io/badge/donate-bitcoin-ff9900.svg?logo=bitcoin&style=flat&v=3)](https://gobitcoinsv.com/#sponsor)
-[![Mergify Status][mergify-status]][mergify]
-
-[mergify]: https://mergify.com
-[mergify-status]: https://img.shields.io/endpoint.svg?url=https://api.mergify.com/v1/badges/libsv/go-bt&style=flat
-<br/>
+> The go-to Bitgesell Transaction (go-bgl) GoLang library  
 
 ## Table of Contents
 
@@ -34,7 +22,7 @@
 **go-bt** requires a [supported release of Go](https://golang.org/doc/devel/release.html#policy).
 
 ```shell script
-go get -u github.com/libsv/go-bt/v2
+go get -u github.com/naftalimurgor/go-bgl/v2
 ```
 
 <br/>
@@ -61,21 +49,6 @@ For more information around the technical aspects of Bitcoin, please see the upd
   - Data (OP_RETURN)
   - [BIP276](https://github.com/moneybutton/bips/blob/master/bip-0276.mediawiki)
 
-#### Coming Soon! (18 months<sup>TM</sup>)
-
-- Complete SigHash Flag Capability
-- MultiSig functionality
-
-<details>
-<summary><strong><code>Library Deployment</code></strong></summary>
-<br/>
-
-[goreleaser](https://github.com/goreleaser/goreleaser) for easy binary or library deployment to Github and can be installed via: `brew install goreleaser`.
-
-The [.goreleaser.yml](.goreleaser.yml) file is used to configure [goreleaser](https://github.com/goreleaser/goreleaser).
-
-Use `make release-snap` to create a snapshot version of the release, and finally `make release` to ship to production.
-</details>
 
 <details>
 <summary><strong><code>Makefile Commands</code></strong></summary>

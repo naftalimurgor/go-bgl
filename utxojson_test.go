@@ -1,4 +1,4 @@
-package bt_test
+package bgl_test
 
 import (
 	"encoding/hex"
